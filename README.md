@@ -1,9 +1,23 @@
-# Template laravel
+**Milestone 1:**
+Creiamo una tabella trains e relativa Migration
+Ogni treno dovrà avere:
+Azienda
+Stazione di partenza
+Stazione di arrivo
+Orario di partenza
+Orario di arrivo
+Codice Treno
+Numero Carrozze
+In orario
+Cancellato
+È probabile che siano necessarie altre colonne per far funzionare la tabella nel modo corretto ;) ...
+Nel file di migration in un commento inserite la "traduzione" in MySQL del codice che crea la tabella.
 
-Questo è un templete per iniziare a lavorare con laravel
+**Milestone 2:**
+Aggiungiamo un paio di righe nella tabella ramite l'interfaccia di PHPMyAdmin
 
-dopo aver clonato il templete devi eseguire questi istruzioni per scaricare le dipendenze:
-1. composer install
-2. npm install
-3. copiare il file .env.example, rinnominarla come .env
-4. php artisan key:generate
+**Milestone 3:**
+Create Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna (fate una tabella).
+
+**Bonus:**
+Abbellite il tutto usando SASS.
